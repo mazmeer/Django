@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-color: #3caea3;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            height: 40em;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .box2 {
+            border: 2px solid black;
+            height: 40px;
+            width: 240px;
+            padding-top: 10px;
+            margin-top: 100px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+
+        .box1 {
+            border: 2px solid black;
+            height: 60px;
+            width: 270px;
+            margin-right: 5px;
+            padding-top: 10px;
+            float: right;
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+
+        input {
+            background-color: black;
+            height: 45px;
+            width: 1650px;
+            border: 2px solid black;
+            margin-top: 40px;
+        }
+
+        button {
+            margin-left: 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 45px;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><h1 style="text-align: center;">CONNECTED</h1></div>
+    <div class="container">
+        <di class="box1"> <span> Hey I am having a problem ordering something. </span> </di>
+        <div class="box2"><span> ............................ </span> </div>
+    </div>
+    <div class="div2"> <span><input type="text" placeholder="Write here"> </span> <button class="button">Send</button>
+    </div>
+    <h1><a href = "{% url 'my_app:variable' %}">Variables</h1>
+</body>
+
+</html>
